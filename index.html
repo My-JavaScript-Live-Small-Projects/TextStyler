@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text-styler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+
+    <div class="refresh-center">
+      <button class="refresh-btn" onclick="refreshPage()">🔄 Refresh</button>
+    </div>
+
+    <h2>🎨 Style Your Text</h2>
+    <input type="text" id="input" placeholder="Type your text here..."/>
+
+    <div class="btn-group">
+      <button onclick="underlining()">Underline</button>
+      <button onclick="fontsizing()">Increase Font</button>
+      <button onclick="bolding()">Bold</button>
+      <button onclick="uppercasing()">Uppercase</button>
+      <button onclick="lowercasing()">Lowercase</button>
+      <button onclick="italicing()">Italic</button>
+      <button onclick="capitalizing()">Capitalize</button>
+    </div>
+
+    <div id="display"></div>
+  </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
